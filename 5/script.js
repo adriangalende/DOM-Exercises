@@ -5,9 +5,6 @@ window.onload = function(){
             const j = Math.floor(Math.random() * (i + 1));
             [array[i], array[j]] = [array[j], array[i]];
         }
-        array.forEach(item=>{
-            console.log(item.alt)
-        })
         return array;
     }
 
